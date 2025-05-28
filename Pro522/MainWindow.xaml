@@ -45,14 +45,14 @@
 
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
-            <TextBlock FontSize="30" Text="Логин"/>
-            <TextBox FontSize="30" TextChanged="TextBox_TextChanged">login_user</TextBox>
-            <TextBlock FontSize="30" Text="Пароль:"/>
-            <PasswordBox FontSize="30"/>
-            <TextBlock FontSize="30" Text="Повторите пароль:"/>
-            <PasswordBox FontSize="30" PasswordChar="#"/>
-            <TextBlock FontSize="30" Text="Должность:"/>
-            <ComboBox FontSize="30">
+            <TextBlock FontSize="15" Text="Логин"/>
+            <TextBox FontSize="13" TextChanged="TextBox_TextChanged">login_user</TextBox>
+            <TextBlock FontSize="15" Text="Пароль:"/>
+            <PasswordBox FontSize="13"/>
+            <TextBlock FontSize="15" Text="Повторите пароль:"/>
+            <PasswordBox FontSize="13" PasswordChar="#"/>
+            <TextBlock FontSize="15" Text="Должность:"/>
+            <ComboBox FontSize="13">
                 <ComboBoxItem IsSelected="True">
                     <TextBlock Text="Администратор"/>
                 </ComboBoxItem>
@@ -61,8 +61,8 @@
                 <TextBlock Text="Водитель"/>
                 <TextBlock Text="Менеджер"/>
             </ComboBox>
-            <TextBlock FontSize="30" Text="Коментарий:"/>
-            <TextBox Height="100" FontSize="30" TextWrapping="Wrap" 
+            <TextBlock FontSize="15" Text="Коментарий:"/>
+            <TextBox Height="100" FontSize="13" TextWrapping="Wrap" 
                      AcceptsReturn="True" 
                      VerticalScrollBarVisibility="Auto"
                      TextChanged="TextBox_TextChanged">Комментарий про сотрудника. Это очень информативный комментарий про сотрудника
